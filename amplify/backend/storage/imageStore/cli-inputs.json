@@ -1,0 +1,18 @@
+{
+  "resourceName": "imageStore",
+  "policyUUID": "8b6ce10a",
+  "bucketName": "imagesstore",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

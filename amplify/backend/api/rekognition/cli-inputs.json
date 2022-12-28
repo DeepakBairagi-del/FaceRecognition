@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "paths": {
+    "/collections/create": {
+      "name": "/collections/create",
+      "lambdaFunction": "createCollectionn",
+      "permissions": {
+        "setting": "open"
+      } 
+    },
+    "/collections/delete": {
+      "name": "/collections/delete",
+      "lambdaFunction": "deleteCollection",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/collections/listCollection": {
+      "name": "/collections/listCollection",
+      "lambdaFunction": "listCollections",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/registerFace": {
+      "name": "/registerFace",
+      "lambdaFunction": "registerFace",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rekognize/detectFaces": {
+      "name": "/rekognize/detectFaces",
+      "lambdaFunction": "detectFaces",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/rekognize/rekognizeFaces": {
+      "name": "/rekognize/rekognizeFaces",
+      "lambdaFunction": "rekognizeFaces",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

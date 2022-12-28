@@ -1,0 +1,52 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rekognitionface-staging-65739-authRole",
+      "UnauthRoleArn": "arn:aws:iam::597178486922:role/amplify-rekognitionface-staging-65739-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::597178486922:role/amplify-rekognitionface-staging-65739-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-rekognitionface-staging-65739-deployment",
+      "UnauthRoleName": "amplify-rekognitionface-staging-65739-unauthRole",
+      "StackName": "amplify-rekognitionface-staging-65739",
+      "StackId": "arn:aws:cloudformation:ap-south-1:597178486922:stack/amplify-rekognitionface-staging-65739/99a25ff0-7b7c-11ed-8ff8-06ff4386e0da",
+      "AmplifyAppId": "d2aqm4do231p9l"
+    },
+    "categories": {
+      "function": {
+        "createCollectionn": {
+          "deploymentBucketName": "amplify-rekognitionface-staging-65739-deployment",
+          "s3Key": "amplify-builds/createCollectionn-3955654e5651306a6d67-build.zip"
+        },
+        "deleteCollection": {
+          "deploymentBucketName": "amplify-rekognitionface-staging-65739-deployment",
+          "s3Key": "amplify-builds/deleteCollection-7a372b417a724d667679-build.zip"
+        },
+        "listCollections": {
+          "deploymentBucketName": "amplify-rekognitionface-staging-65739-deployment",
+          "s3Key": "amplify-builds/listCollections-70547851794a2f52776f-build.zip"
+        },
+        "registerFace": {
+          "deploymentBucketName": "amplify-rekognitionface-staging-65739-deployment",
+          "s3Key": "amplify-builds/registerFace-5937326a552b49637074-build.zip"
+        },
+        "detectFaces": {
+          "deploymentBucketName": "amplify-rekognitionface-staging-65739-deployment",
+          "s3Key": "amplify-builds/detectFaces-6530446463587a4e796c-build.zip"
+        },
+        "rekognizeFaces": {
+          "deploymentBucketName": "amplify-rekognitionface-staging-65739-deployment",
+          "s3Key": "amplify-builds/rekognizeFaces-3169656437332b793369-build.zip"
+        }
+      },
+      "api": {
+        "rekognition": {}
+      },
+      "auth": {
+        "rekognitionface1a5f96c1": {}
+      },
+      "storage": {
+        "imageStore": {}
+      }
+    }
+  }
+}
